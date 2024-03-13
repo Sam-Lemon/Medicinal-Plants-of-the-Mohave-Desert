@@ -30,7 +30,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
-h1 {
+#medicinal {
     color: #2d8366;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -71,34 +71,6 @@ a {
 
 
 /*Page 2*/
-.nav-sidebar {
-    border-style: outset 20px;
-}
-.side-bar {
-    width: 150px;
-    position: relative;
-    z-index: 1;
-    top: 40px;
-    left: 10px;
-    background-color: #F2E9C6;
-    border-style: outset;
-    border-width: 5px;
-    border-color: rgb(235, 184, 152);
-    height: 200px;
-    overflow-x: hidden;
-    padding: 8px;
-}
-.side-bar a {
-    padding: 6px 8px 6px 8px;
-    text-decoration: none;
-    font-size: medium;
-    color: rgb(45, 131, 102);
-    display: block;
-    border-style: ridge 10px;
-}
-.side-bar a:hover {
-    color: #46a686;
-}
 .header-pg2 {
     color: #2d8366;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -110,37 +82,76 @@ a {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
     background-color: #F2E9C6;
-}
-.why {
-    color: #1c5240;
-    border-style: inset;
-    
-}
-.why-header {
-    
-}
-
-.why-p {
-    width: 60%;
-    height: auto;
-}
-
-.ul-use {
-
-}
-h3 {
-
-}
-ul, ol {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: largerf;
 }
 
 figure {
 
 }
+#ocotillo {
+    width: 350px;
+    border-style: ridge;
+    border-width: 1cap;
+    border-color: rgb(235, 184, 152);
+    border-radius: 5px;
+}
 figcaption {
+
+}
+
+.why {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+ #why-plants-heading {
+    text-decoration: underline;
+    margin: 8px;
+ }
+ .why-p {
+    
+ }
+
+.plant-use-heading {
+    text-align: right;
+}
+
+.plant-use{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#salve {
+    width: 250px;
+    border-style: ridge;
+    border-width: 1cap;
+    border-color: rgb(235, 184, 152);
+    border-radius: 5px;
+}
+
+#tincture {
+    width: 250px;
+    border-style: ridge;
+    border-width: 1cap;
+    border-color: rgb(235, 184, 152);
+    border-radius: 5px;
+}
+
+.warning {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.warning-heading {
+    text-align: right;
+}
+
+
+
 
 }
 
