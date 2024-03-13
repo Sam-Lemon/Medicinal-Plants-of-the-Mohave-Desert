@@ -86,30 +86,29 @@ a {
     background-color: #F2E9C6;
 }
 
-figure {
-
-}
 #ocotillo {
-    width: 350px;
+    width: 250px;
     border-style: ridge;
     border-width: 1cap;
     border-color: rgb(235, 184, 152);
     border-radius: 5px;
-}
-figcaption {
-
+    margin: 40px;
 }
 
 .why {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
  #why-plants-heading {
     text-decoration: underline;
-    margin: 8px;
  }
+
  .why-p {
-    
+    width: 600px;
  }
 
 .plant-use-heading {
@@ -118,7 +117,7 @@ figcaption {
 
 .plant-use{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     justify-content: space-around;
 }
@@ -141,7 +140,7 @@ figcaption {
 
 .warning {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     justify-content: space-around;
 }
@@ -151,9 +150,6 @@ figcaption {
 }
 
 
-
-
-}
 
 
 
