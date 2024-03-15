@@ -197,7 +197,7 @@ elements where I wanted them. */
     height: auto;
 }
 
-/*Both image banners are formatted the same, using flexbox. First I put all the individual images in a div, classed "collage". The images were in their
+/*Both image banners are styled the same, using flexbox. First I put all the individual images in a div, classed "collage". The images were in their
 own class (.image-collage) so that I could make them the size I wanted. Then I placed them where I wanted on the page with the .collage div, using flexbox.
 Justify-content centered them, flex-direction makes them a row and not a column. Justify-content put the images where I wanted, but margin-left/right: auto; placed the
 larger element in the center of the page. */
@@ -231,7 +231,8 @@ table {
 }
 
 /*Once again, in the table all of my text was going to be the same font, so instead of putting it in each tr, or td, I placed it in the larger table. I styled
-the whole table, adjusting font-size, borders, aligning text.*/
+the whole table, adjusting font-size, borders, aligning text. I felt safe using the element selectors because this will be the only table in the project.
+If I was working on a larger project I would have used a class or id selector.*/
 
 th, td {
     border-style: 2px solid #1c5240;
